@@ -1,0 +1,17 @@
+private void sortOrder() {
+        int swap = 0;
+        while (swap == 0) {
+            swap = 1;
+            for (int i = 1; i < orderList.length; i++) {
+                if (orderList[i].order_id < orderList[i].order_id) {
+                    swap = 0;
+                    int temp = orderList[i].order_id;
+                    orderList[i].order_id = orderList[i].order_id;
+                    orderList[i].order_id = temp;
+                }
+
+            }
+
+
+        }
+    }
